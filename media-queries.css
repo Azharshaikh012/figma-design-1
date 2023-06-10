@@ -1,0 +1,279 @@
+@media screen and (min-width:340px) and (max-width:870px) {
+  body {
+    background-color: white;
+  }
+
+  /* navbar */
+
+  .navbar-container {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+    text-align: left;
+  }
+
+  .sections {
+    padding: 30px;
+  }
+  .nav-toggle-img{
+ 
+    display: inline-block;
+  }
+
+  
+  /* section 1 */
+  .service-provide {
+    display: block;
+    margin: 0px;
+  }
+
+  .campus-img {
+    display: none;
+  }
+
+  .heading {
+    margin-top: 20px;
+  }
+
+  .heading,
+  .heading-content,
+  .heading-data,
+  .heading-btn {
+    text-align: center;
+  }
+
+  .heading-btn {
+    margin-top: 20px;
+  }
+
+  /* section 2 */
+  .offers {
+    margin-right: 20px;
+    margin-bottom: 40px;
+    padding: 20px;
+  }
+
+  .offer-line {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .offer-info {
+    padding: 10px;
+  }
+
+  .offer-component {
+    width: 100%;
+  }
+
+  .comp-1 {
+    padding: 4px 20px;
+  }
+
+  .offer-feature {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .pro-idea-head,
+  .pro-idea-info {
+    margin: 0;
+  }
+
+  .call-btn,
+  .book-btn {
+    margin: 10px;
+  }
+
+  /* section 3_________________________________________________________ */
+  .pro-idea-list {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+
+  }
+
+  .idea-list-info {
+    display: flex;
+    align-items: center;
+  }
+
+  /* _________________________________________________________ */
+  .dev-ser,
+  .dev-ser-info {
+    margin: 10px;
+  }
+
+  .dev-rel-info {
+    display: block;
+    width: 90%;
+    padding-left: 0px;
+  }
+
+  .dev-rel-extra-det {
+    padding: 80px 80px;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .dev-rel-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+  }
+
+  .dev-list-btn {
+    width: 120px;
+    padding: 8px 0px;
+    margin-top: 10px;
+    border-radius: 100px;
+    border: none;
+    text-align: center;
+    list-style: none;
+    align-self: flex-end;
+    justify-self: center;
+
+  }
+
+  .ser-extra-card {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .dev-ser-extra-details {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* -------------------------------------------------- */
+  .ind-rang-heading {
+    text-align: center;
+
+    padding: 0;
+    margin: 0;
+  }
+
+  .ind-ser-list-container {
+    justify-content: center;
+  }
+
+  .ind-rang-info {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ind-ser-graph-img {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .industries-rang-graph-img {
+    display: none;
+  }
+
+  .ind-ser-book-btn {
+    margin-top: 40px;
+  }
+
+  .ind-ser-btn-container {
+    text-align: center;
+  }
+
+  /* -------------------------------------------------- */
+  .mozilla {
+    width: 20px;
+    height: 20px;
+  }
+
+  .trusted-list-items {
+    padding: 8px;
+  }
+
+  /* -------------------------------------------------- */
+  .location-heading {
+    margin-top: 30px;
+    font-size: 30px;
+  }
+
+  .location-temps {
+    display: grid;
+    margin-top: 30px;
+  }
+
+  .loc-title-add {
+    display: grid;
+    grid-template-columns: 80%;
+
+  }
+
+  /* -------------------------------------------------- */
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .title-and-social-media-accounts-list {
+    order: 3;
+    margin: 0px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+  }
+
+  .company-and-service {
+    order: 1;
+
+  }
+
+  .block-chain-solu-container {
+    /* padding-left: 22px; */
+    order: 2;
+    margin-top: 30px;
+    /* justify-content: center; */
+    /* text-align: center;
+    justify-items:center;
+    align-items: center; */
+  }
+
+  .social-title-name {
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .social-media-list-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social-accounts-name {
+    visibility: hidden;
+  }
+
+  .social-accounts-list {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .copyright {
+    grid-column-start: 1;
+    grid-column-end: col4-start;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .social-media-list-container {
+    justify-content: left;
+  }
+
+  .blockchain-solution{
+    display: none;
+  }
+}
